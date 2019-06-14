@@ -4,8 +4,8 @@
 ###load the github libraries
 library(devtools)
 install_github("htx-r/CleaningData",force=TRUE)
-install_github("htx-r/RiskModelNMApredictions", force = TRUE)
-library(RiskModelNMApredictions)
+install_github("htx-r/NMApredictionsRiskModel", force = TRUE)
+library(NMApredictionsRiskModel)
 library(CleaningData)
 
 ###### Give your path of data
